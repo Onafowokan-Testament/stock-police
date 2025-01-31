@@ -30,7 +30,7 @@ else:
     up_down = "⬆"
 percent_diff = round((close_difference / float(yesterday_closing_price)) * 100)
 if abs(percent_diff) > 1:
-    NEWS_API_KEY = "b1d5364bf1e141e1a91b1fd6079e29c1"
+    NEWS_API_KEY = "NEWS API KEY"
     news_parameter = {"qInTitle": COMPANY_NAME,
                       "apikey": NEWS_API_KEY,
                       "sortBy": "publishedAt",
